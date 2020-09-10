@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div>Test</div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" 
+      type="image/png" 
+      href="/assets/favicon.png">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="assets/style.css" />
+		<title>Ellie's Links</title>
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-177429414-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-177429414-1');
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="circle-shape">
+				<a
+					href="https://www.instagram.com/miss_elliev/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src="assets/pic.jpg" alt="Pic" class="profile-pic" />
+				</a>
+			</div>
+			<a
+				href="https://www.instagram.com/miss_elliev/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="ig-link"
+			>
+				@miss_elliev
+			</a>
+			<div class="link-list">
+				<a
+					href="https://dev.to/misselliev"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<div class="link-list-item light">
+						Read my DEV.to blog posts
+					</div>
+				</a>
+				<a href="mailto:elizabeth.villalejos@gmail.com">
+					<div class="link-list-item dark">
+						Contact me
+					</div>
+				</a>
+			</div>
+			<div class="icon-list">
+				<a
+					href="https://github.com/misselliev"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src="assets/icon-github.png"
+						alt="github link"
+						class="icon-list-img"
+					/>
+				</a>
+				<a
+					href="https://twitter.com/miss_elliev"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src="assets/icon-twitter.png"
+						alt="twitter link"
+						class="icon-list-img"
+					/>
+				</a>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
