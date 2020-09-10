@@ -1,10 +1,10 @@
 :root {
-  --darkest-color: #A04668;
-  --lightest-color: #FFDDE2;
-  --highlight-color: #DE369D;
-  --bright-color-1: #EFD6D2;
-  --bright-color-2: #FF8CC6;
-  --bright-color-3: #F7ACCF;
+  --darkest-color: #a04668;
+  --lightest-color: #ffdde2;
+  --highlight-color: #de369d;
+  --bright-color-1: #efd6d2;
+  --bright-color-2: #ff8cc6;
+  --bright-color-3: #f7accf;
 }
 
 body {
@@ -60,7 +60,8 @@ a {
   border-radius: 2px;
 }
 
-.link-list-item:hover, a:hover {
+.link-list-item:hover,
+a:hover {
   color: var(--highlight-color);
   border-color: var(--highlight-color);
   text-shadow: 0 0 2em var(--highlight-color);
