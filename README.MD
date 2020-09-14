@@ -11,7 +11,7 @@ Think of LinkTree but with a tiny chihuahua debugging dog and HTML/CSS combo.
 
 ## ✨ Live Demo
 
-You can look at it [here](). //to be updated
+You can look at it [here](https://misselliev.github.io/dulce-tiny-links/).
 
 
 ## Author
